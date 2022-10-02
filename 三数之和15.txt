@@ -1,0 +1,30 @@
+function threeSum($nums) {
+        $hash_arr=[];
+        $same=[];
+        foreach ($nums as $k => $v) {
+            if(isset($hash_arr[$v])){
+                $hash_arr[$v]++;
+            }else{
+                $hash_arr[$v]=1;
+            }
+        }
+        $res=[];
+        for ($i=0; $i < count($nums)-2; $i++) {
+            $tmp=$hash_arr;
+            $tmp[$nums[$i]]--;
+            for ($j=$i+1; $j < count($nums)-1; $j++) {
+                $tmp[$nums[$j]]--;
+                $x=0-($nums[$i]+$nums[$j]);
+                if(isset($tmp[$x])&&$tmp[$x]){
+                    $a=[$nums[$i],$nums[$j],$x];
+                    sort($a);
+                    if(!isset($same[$a[0].$a[1].$a[2]])){
+                        $res[]=$a;
+                        $same[$a[0].$a[1].$a[2]]=1;
+                    }
+                }
+                $tmp[$nums[$j]]++;
+            }
+        }
+        return $res;
+    }

@@ -1,0 +1,5 @@
+ function defangIPaddr($address) {
+
+        return str_replace('.', '[.]', $address);   
+    }
+

@@ -1,0 +1,151 @@
+一个有名的按摩师会收到源源不断的预约请求，每个预约都可以选择接或不接。在每次预约服务之间要有休息时间，因此她不能接受相邻的预约。给定一个预约请求序列，替按摩师找到最优的预约集合（总预约时间最长），返回总的分钟数。
+
+注意：本题相对原题稍作改动
+
+ 
+
+示例 1：
+
+输入： [1,2,3,1]
+输出： 4
+解释： 选择 1 号预约和 3 号预约，总时长 = 1 + 3 = 4。
+
+示例 2：
+
+输入： [2,7,9,3,1]
+输出： 12
+解释： 选择 1 号预约、 3 号预约和 5 号预约，总时长 = 2 + 9 + 1 = 12。
+
+示例 3：
+
+输入： [2,1,4,5,3,1,1,3]
+输出： 12
+解释： 选择 1 号预约、 3 号预约、 5 号预约和 8 号预约，总时长 = 2 + 4 + 3 + 3 = 12。
+
+来源：力扣（LeetCode）
+链接：https://leetcode-cn.com/problems/the-masseuse-lcci
+著作权归领扣网络所有。商业转载请联系官方授权，非商业转载请注明出处。
+
+
+
+
+
+
+
+
+
+function massage($nums) {
+        $numsLen=sizeof($nums);
+        if($numsLen==0)//特殊情况返回
+            return 0;
+        $dp=[];//状态转移数组
+        $dp[0]=$nums[0];
+        $dp[1]=$nums[1]>$nums[0]?$nums[1]:$nums[0];
+        for($i=2;$i<$numsLen;$i++){
+            $dp[$i]=$dp[$i-1]>($dp[$i-2]+$nums[$i])?$dp[$i-1]:$dp[$i-2]+$nums[$i];//状态转移
+        }
+        
+        return $dp[$numsLen-1];
+    }
+
+
+/**
+     * @param $nums
+     * @return int|mixed
+     */
+    function massage($nums) {
+        // 时间复杂度 O(n)
+        // 空间复杂度 O(2n)
+        $count = count($nums);
+        if ( $count == 0 ) return 0;
+        if ( $count == 1 ) return $nums[0];
+
+        // 初始化第1天
+        $dp[0][0] = 0;        //第一天 如果不接受 那就是0
+        $dp[0][1] = $nums[0]; //第一天 如果接受 那就是第一个元素值
+        // 第一天情况已经分别已知，去处理剩余
+        for ($i = 1; $i < $count; $i++) {
+            //不接受：上次没有接受预约，或上次接受了预约。取最大值即：max($dp[$i - 1][0], $dp[$i - 1][1]);
+            $dp[$i][0] = max($dp[$i - 1][0], $dp[$i - 1][1]);
+            //接受：上次肯定没有接受预约，加上这次的值即：dp[i - 1][0] + nums[i]
+            $dp[$i][1] = $dp[$i - 1][0] + $nums[$i];
+        }
+        // 返回最终结果的最大值
+        return max($dp[$count - 1][0], $dp[$count - 1][1]);
+    }
+    
+    // -----------------------------------------------------------------------------
+    
+    
+    // 优化 function massage()
+    // 根据massage()基于二维数组的处理 优化为一维数组的处理 优化空间复杂度 O(n)
+    // 当前处理的结果是 上次的结果值 和 上上次的结果值加上当前值 的最大值
+    function massage2($nums) {
+        $count = count($nums);
+        if ( $count == 0 ) return 0;
+        if ( $count == 1 ) return $nums[0];
+
+        // 设置前两次的最大结果
+        $dp[0] = $nums[0];
+        $dp[1] = max($nums[0],$nums[1]);
+        // 处理剩余
+        for ($i = 2; $i < $count; $i++) {
+            // 上次的结果值 和 上上次的结果值加上当前值 的最大值
+            $dp[$i] = max($dp[$i - 1], $dp[$i - 2] + $nums[$i]);
+        }
+        return array_pop($dp);
+    }
+    
+    // -----------------------------------------------------------------------------
+
+
+    // 优化 function massage()
+    // 滚动变量处理 优化空间复杂度 O(1)
+    function massage3($nums) {
+        $count = count($nums);
+        if ( $count == 0 ) return 0;
+        if ( $count == 1 ) return $nums[0];
+
+        // 设置第一次各情况值
+        $a = 0;
+        $b = $nums[0];
+        // 处理剩余
+        for ($i = 1; $i < $count; $i++) {
+            // 获得不选择时 最优结果
+            $tmp1 = $a > $b ? $a : $b;
+            // 获取选择时 结果
+            $tmp2 = $a + $nums[$i];
+            $a = $tmp1;
+            $b = $tmp2;
+        }
+        // 返回最优值
+        return $a > $b ? $a : $b;
+    }
+
+作者：FlagMain
+链接：https://leetcode-cn.com/problems/the-masseuse-lcci/solution/1716-an-mo-shi-phpdong-tai-gui-hua-jie-jue-gun-don/
+来源：力扣（LeetCode）
+著作权归作者所有。商业转载请联系作者获得授权，非商业转载请注明出处。
+
+
+
+function massage($nums) {
+        $dp[-1] = 0;
+        $dp[-2] = 0;
+        foreach ($nums as $key => $val) {
+            $dp[$key] = max($val + $dp[$key - 2], $dp[$key - 1]);
+        }
+        return end($dp);
+    }
+}
+
+作者：ssskkksss
+链接：https://leetcode-cn.com/problems/the-masseuse-lcci/solution/dong-tai-gui-hua-by-ssskkksss-7/
+来源：力扣（LeetCode）
+著作权归作者所有。商业转载请联系作者获得授权，非商业转载请注明出处。
+
+
+
+
+
+
