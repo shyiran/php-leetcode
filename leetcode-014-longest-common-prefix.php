@@ -33,18 +33,24 @@
 
 class LeetCode0014
 {
-    function longestCommonPrefix($strs) {
-        $count    = count($strs);        // 数组总数
-        $first    = $strs[0];            // 第一个字符串
-        $firstLen = strlen($first);      // 第一个字符串长度
-        $res      = '';                  // 公共前缀结果
+    /**
+     * @param String[] $strs
+     * @return String
+     */
+    function longestCommonPrefix(array $array):string {
+        $length    = count($array);         // 数组总数
+        if($length==0){
+            return '';
+        }
+        $first_l = strlen($array[0]);      // 数组第一个字符串长度
+        $res      = '';                 // 公共前缀结果
         # 循环第一个字符串
-        for ($i = 0; $i < $firstLen; $i++) {
-            $tmp = $first[$i];              // 第一个字符串的第i个字符
+        for ($i = 0; $i < $first_l; $i++) {
+            $tmp = $array[0][$i];              // 第一个字符串的第i个字符
             # 遍历数组的其他字符串
-            for ($j = 1; $j < $count; $j++) {
+            for ($j = 1; $j < $length; $j++) {
                 # 判断字符串字符是否相等,不相等则直接返回,相等则在循环外拼接公共前缀
-                if ($strs[$j][$i] != $tmp) {
+                if ($array[$j][$i] != $tmp) {
                     return $res;
                 }
             }

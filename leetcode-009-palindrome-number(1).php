@@ -28,14 +28,17 @@
 https://leetcode-cn.com/problems/palindrome-number/
 */
 declare (strict_types=1);
-function isPalindrome ($x)
-{
+/**
+ * @param Integer $x
+ * @return Boolean
+ */
+function isPalindrome(string $x):bool {
     if ($x == strrev ($x)) {
-        return 1;
+        return true;
     }
-    return 0;
+    return false;
 }
 
-$s = '121';
+$s = '10';
 $f = isPalindrome ($s);
 echo $f;

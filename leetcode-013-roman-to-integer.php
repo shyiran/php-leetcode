@@ -77,11 +77,16 @@ https://leetcode.cn/problems/roman-to-integer/
 
 class LeetCode0013
 {
-    function romanToInt($s)
+    /**
+     * @param String $s
+     * @return Integer
+     */
+    function romanToInt (string $s): string
     {
-        $result   = 0;
-        $romanMap = ["I" => 1, 'V' => 5, 'X' => 10, 'L' => 50, 'C' => 100, 'D' => 500, 'M' => 1000];
-        for ($i = 0; $i < strlen($s); $i++) {
+        $result = 0;
+        $romanMap = [ "I" => 1, 'V' => 5, 'X' => 10, 'L' => 50, 'C' => 100, 'D' => 500, 'M' => 1000 ];
+        $s_l = strlen ($s);
+        for ($i = 0; $i < $s_l; $i++) {
             if (!isset($s[$i + 1]) || $romanMap[$s[$i]] >= $romanMap[$s[$i + 1]]) {
                 $result += $romanMap[$s[$i]];
             } else {
