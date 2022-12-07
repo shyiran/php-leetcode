@@ -48,7 +48,4 @@ class Solution819
         }
         return array_search(max($hash), $hash);
     }
-
-
-
 }
