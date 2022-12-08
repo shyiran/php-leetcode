@@ -1,0 +1,51 @@
+//待办品牌策划项
+v2/dashboard/cehualist?type=1
+//完成品牌策划项
+v2/dashboard/cehualist?type=1
+
+
+//方案数
+v2/dashboard/gxcl
+
+
+//brief数
+v2/dashboard/brief
+
+
+
+
+
+
+
+
+
+
+
+
+        Route::get ('cehualist', 'v2.Cehua/cehualist');
+        //：个性策略栏目下该企业所创建的方案总数。
+        Route::get ('gxcl', 'v2.Poster/gxcl');
+        //brief数：brief库栏目下该企业创建的brief总数。
+        Route::get ('brief', 'v2.Brief/brief');
+        //已开通自媒体矩阵：发布栏目下该企业状态为已注册的自媒体平台总数
+        Route::get ('zmtjz', 'v2.Fabu/zmtjz');
+        //媒体维护：维护记录栏目当前月该企业新增媒体维护的数量。
+        Route::get ('mtwh', 'v2.Medialibrary/mtwh');
+        //媒体新增：媒介名单栏目当前月该企业新增媒体的总数。
+        Route::get ('mtxz', 'v2.Medialibrary/mtxz');
+        //危机应对方案数据统计
+        Route::get ('wjdyfa', 'v2.Crisis/wjdyfa');
+        //方案--最近新增：展示该企业最近新增三条个性策略，需展示 名称。
+        Route::get ('fa_zjxz', 'v2.Poster/fa_zjxz');
+        //媒体组员传播力量占比级建议数值：
+        //TODO，目前需求待定
+        //媒体关系维护类型分析：
+        Route::get ('mtgxwhlx', 'v2.Medialibrary/mtgxwhlx');
+        //媒体资源岗位分析：
+        Route::get ('mtzygwfx', 'v2.Medialibrary/mtzygwfx');
+        //媒体维护趋势（近6个月）：
+        Route::get ('mtwhqs', 'v2.Medialibrary/mtwhqs');
+        //媒体新增趋势（近6个月）：
+        Route::get ('mtxzqs', 'v2.Medialibrary/mtxzqs');
+        //媒体资源完成度：当前企业的媒体名单栏目下媒介联系人的总数/200*100%。
+        Route::get ('mtzywsd', 'v2.Medialibrary/mtzywsd');
