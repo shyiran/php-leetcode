@@ -47,7 +47,4 @@ class Solution657
         }
         return $x == 0 && $y == 0;
     }
-
-
-
 }

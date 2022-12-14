@@ -81,19 +81,32 @@ https://leetcode.cn/problems/integer-to-roman/
 
 class LeetCode0012
 {
-    // 暴力匹配
-    function intToRoman($num) {
-        $map = [
-            ['', 'I', 'II', 'III', 'IV', 'V', 'VI', 'VII', 'VIII', 'IX'],   //0, 1~9
-            ['', 'X', 'XX', 'XXX', 'XL', 'L', 'LX', 'LXX', 'LXXX', 'XC'],   //0, 10~90
-            ['', 'C', 'CC', 'CCC', 'CD', 'D', 'DC', 'DCC', 'DCCC', 'CM'],   //0, 100~900
-            ['', 'M', 'MM', 'MMM'],                                         //0, 1000~3000，题目中说明数字最高为3999
+    // 贪心 + 哈希表
+    function intToRoman($num)
+    {
+        $hash = [
+            1000 => 'M',
+            900 => 'CM',
+            500 => 'D',
+            400 => 'CD',
+            100 => 'C',
+            90 => 'XC',
+            50 => 'L',
+            40 => 'XL',
+            10 => 'X',
+            9 => 'IX',
+            5 => 'V',
+            4 => 'IV',
+            1 => 'I',
         ];
         $res = '';
-        $res .= $map[3][intval($num / 1000) % 10];
-        $res .= $map[2][intval($num / 100) % 10];
-        $res .= $map[1][intval($num / 10) % 10];
-        $res .= $map[0][$num % 10];
+        foreach ($hash as $key => $s) {
+            if (intval($num / $key) != 0) {
+                $count = intval($num / $key);
+                $res .= str_repeat($s, $count);
+                $num %= $key;
+            }
+        }
         return $res;
     }
 }

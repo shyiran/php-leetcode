@@ -81,20 +81,40 @@ https://leetcode.cn/problems/integer-to-roman/
 
 class LeetCode0012
 {
-    // 暴力匹配
-    function intToRoman($num) {
-        $map = [
-            ['', 'I', 'II', 'III', 'IV', 'V', 'VI', 'VII', 'VIII', 'IX'],   //0, 1~9
-            ['', 'X', 'XX', 'XXX', 'XL', 'L', 'LX', 'LXX', 'LXXX', 'XC'],   //0, 10~90
-            ['', 'C', 'CC', 'CCC', 'CD', 'D', 'DC', 'DCC', 'DCCC', 'CM'],   //0, 100~900
-            ['', 'M', 'MM', 'MMM'],                                         //0, 1000~3000，题目中说明数字最高为3999
+    // 贪心 + 哈希表
+    function intToRoman($num)
+    {
+        $s_arr = str_split($num);
+        $s = implode('/',$s_arr);
+
+        $dict = [
+            'I' => 1,
+            'V' => 5,
+            'X' => 10,
+            'L' => 50,
+            'C' => 100,
+            'D' => 500,
+            'M' => 1000,
         ];
-        $res = '';
-        $res .= $map[3][intval($num / 1000) % 10];
-        $res .= $map[2][intval($num / 100) % 10];
-        $res .= $map[1][intval($num / 10) % 10];
-        $res .= $map[0][$num % 10];
-        return $res;
+
+        $spec = [
+            'I/V' => 4,
+            'I/X' => 9,
+            'X/L' => 40,
+            'X/C' => 90,
+            'C/D' => 400,
+            'C/M' => 900,
+        ];
+
+        foreach ($spec as $k => $item) {
+            $s = str_replace($k,$item,$s);
+        }
+        $s_arr = explode('/',$s);
+        $sum = 0;
+        foreach ($s_arr as $item) {
+            $sum += $dict[$item] ?? $item;
+        }
+        return $sum;
     }
 }
 
