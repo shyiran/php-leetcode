@@ -45,14 +45,17 @@ var_dump((new Solution268())->missingNumber($arr));
 
 class Solution268
 {
-    // [0,n]的和 减去 数组的和，就是缺失的数字
     /**
      * @param Integer[] $nums
      * @return Integer
      */
     function missingNumber(array $nums):int {
+        $sum = array_sum($nums);
         $len = count($nums);
-        $arr = range(0, $len);
-        return array_sum($arr) - array_sum($nums);
+        $sum1 = $len * ($len + 1) / 2;
+        return $sum1 - $sum;
     }
+
+
+
 }
