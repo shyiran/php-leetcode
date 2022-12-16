@@ -28,44 +28,18 @@
 https://leetcode.cn/problems/merge-two-sorted-lists/
 */
 
-class ListNode {
-    public $val = 0;
-    public $next = null;
-    function __construct($val = 0, $next = null) {
-        $this->val = $val;
-        $this->next = $next;
-    }
-}
-class Solution21 extends ListNode {
-    function mergeTwoLists ( $l1,  $l2):array
-    {
-        if (!$l1 ) {
-            return $l2;
+
+class Solution21 {
+    function mergeTwoLists ($list1,$list2){
+        if($list1==null) return $list2;
+        if($list2==null) return $list1;
+        if($list1->val<$list2->val){
+            $list1->next=$this->mergeTwoLists($list1->next,$list2);
+            return $list1;
+        }else{
+            $list2->next=$this->mergeTwoLists($list1,$list2->next);
+            return $list2;
         }
-        if (!$l2) {
-            return $l1;
-        }
-        $current = $head = new ListNode(0);//虚拟头结点
-        while($l1 || $l2){
-            if(!$l1){
-                $current->next = $l2;
-                break;
-            }
-            if(!$l2){
-                $current->next = $l1;
-                break;
-            }
-            if($l1->val < $l2->val){
-                $current->next = $l1;
-                $current = $current->next;
-                $l1 = $l1->next;
-            }else{
-                $current->next = $l2;
-                $current = $current->next;
-                $l2 = $l2->next;
-            }
-            return $head->next;
-        }
-        return [];
+
     }
 }

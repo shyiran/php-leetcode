@@ -36,15 +36,18 @@ class LeetCode0011
      * @return Integer
      */
     function maxArea(array $height):int {
-        $res = 0;
-        $l = 0;
-        $r = count($height) - 1;
-        while ($l < $r) {
-            $area = min($height[$l], $height[$r]) * ($r - $l);
-            $height[$l] > $height[$r] ? $r-- : $l++;
-            $res = max($area, $res);
+        $left=0;
+        $right=count($height)-1;
+        $max=0;
+        while($left<$right){
+            $max=max($max,($right-$left)*min($height[$left],$height[$right]));
+            if($height[$left]<$height[$right]){
+                $left++;
+            }else{
+                $right--;
+            }
         }
-        return $res;
+        return $max;
     }
 }
 
