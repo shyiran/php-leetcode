@@ -1211,7 +1211,7 @@
 
 737. 句子相似性 II------
 
-738. 单调递增的数字-------------------------------------------------leetcode-738-monotone-increasing-digits.php
+738. 单调递增的数字--------------------------------------------------leetcode-738-monotone-increasing-digits.php
 
 739. 每日温度---------------------------------------------------------------------leetcode-0739-daily-temperatures.php
 
@@ -1328,7 +1328,7 @@
 795. 区间子数组个数
 
 
-796. 旋转字符串(简单)---------------------------------------------------------------------leetcode-796-rotate-string.php
+796. 旋转字符串(简单)----------------------------------------------------------------------leetcode-796-rotate-string.php
 
 797. 所有可能的路径
 
@@ -1947,13 +1947,13 @@
 
 1100. 长度为 K 的无重复字符子串
 
-1101. 彼此熟识的最早时间
+1101. 彼此熟识的最早时间-----
       
 1102. 得分最高的路径
       
-1103. 分糖果 II
+1103. 分糖果 II--------------------------------------------------------leetcode-1103-distribute-candies-to-people.php
       
-1104. 二叉树寻路
+1104. 二叉树寻路--------------------------------------------leetcode-1104-path-in-zigzag-labelled-binary-tree.php
       
 1105. 填充书架
       
@@ -1961,13 +1961,13 @@
       
 1107. 每日新用户统计
       
-1108. IP 地址无效化
+1108. IP 地址无效化-------------------------------------------------------leetcode-1108-defanging-an-ip-address.php
       
 1109. 航班预订统计
       
 1110. 删点成林
       
-1111. 有效括号的嵌套深度
+1111. 有效括号的嵌套深度-leetcode-1111-maximum-nesting-depth-of-two-valid-parentheses-strings.php
       
 1112. 每位学生的最高成绩
       
@@ -1989,7 +1989,7 @@
       
 1121. 将数组分成几个递增序列
       
-1122. 数组的相对排序
+1122. 数组的相对排序-------------------------------------------------------------leetcode-1122-relative-sort-array.php
       
 1123. 最深叶节点的最近公共祖先
       
@@ -2019,7 +2019,7 @@
       
 1136. 并行课程
       
-1137. 第 N 个泰波那契数
+1137. 第 N 个泰波那契数--------------------------------------------------leetcode-1137-n-th-tribonacci-number.php
       
 1138. 字母板上的路径
       
@@ -2065,11 +2065,11 @@
       
 1159. 市场分析 II
       
-1160. 拼写单词
+1160. 拼写单词-------------------------------leetcode-1160-find-words-that-can-be-formed-by-characters.php
       
-1161. 最大层内元素和
+1161. 最大层内元素和----------------------------------leetcode-1161-maximum-level-sum-of-a-binary-tree.php
       
-1162. 地图分析
+1162. 地图分析--------------------------------------------------------leetcode-1162-as-far-from-land-as-possible.php
       
 1163. 按字典序排在最后的子串
       
@@ -2101,7 +2101,7 @@
       
 1177. 构建回文串检测
       
-1178. 猜字谜
+1178. 猜字谜-------------------------------------------leetcode-1178-number-of-valid-words-for-each-puzzle.php
       
 1179. 重新格式化部门表
       
@@ -2125,7 +2125,7 @@
       
 1189. “气球” 的最大数量
       
-1190. 反转每对括号间的子串
+1190. 反转每对括号间的子串-leetcode-1190-reverse-substrings-between-each-pair-of-parentheses.php
       
 1191. K 次串联后最大子数组之和
       
@@ -2145,13 +2145,13 @@
       
 1199. 建造街区的最短时间
       
-1200. 最小绝对差----------------leetcode-1200-minimum-absolute-difference.php
+1200. 最小绝对差--------------------------------------------------leetcode-1200-minimum-absolute-difference.php
 
 1201. 丑数 III
       
-1202. 交换字符串中的元素
+1202. 交换字符串中的元素-------------------------------------------leetcode-1202-smallest-string-with-swaps.php
       
-1203. 项目管理
+1203. 项目管理------------------------------leetcode-1203-sort-items-by-groups-respecting-dependencies.php
       
 1204. 最后一个能进入电梯的人
       
@@ -2159,9 +2159,9 @@
       
 1206. 设计跳表
       
-1207. 独一无二的出现次数
+1207. 独一无二的出现次数------------------------------------leetcode-1207-unique-number-of-occurrences.php
       
-1208. 尽可能使字符串相等
+1208. 尽可能使字符串相等------------------------------leetcode-1208-get-equal-substrings-within-budget.php
       
 1209. 删除字符串中的所有相邻重复项 II
       
@@ -2179,15 +2179,15 @@
       
 1216. 验证回文字符串 III
       
-1217. 玩筹码
+1217. 玩筹码--------------------------leetcode-1217-minimum-cost-to-move-chips-to-the-same-position.php
       
-1218. 最长定差子序列
+1218. 最长定差子序列-------------leetcode-1218-longest-arithmetic-subsequence-of-given-difference.php
       
 1219. 黄金矿工
       
 1220. 统计元音字母序列的数目
       
-1221. 分割平衡字符串
+1221. 分割平衡字符串-----------------------------------------leetcode-1221-split-a-string-in-balanced-strings.php
       
 1222. 可以攻击国王的皇后
       
@@ -2209,7 +2209,7 @@
       
 1231. 分享巧克力
       
-1232. 缀点成线(简单)leetcode-1232-check-if-it-is-a-straight-line.php
+1232. 缀点成线(简单)--------------------------------------------------leetcode-1232-check-if-it-is-a-straight-line.php
       
 1233. 删除子文件夹
       
@@ -2249,7 +2249,7 @@
       
 1251. 平均售价
       
-1252. 奇数值单元格的数目(简单)-----leetcode-1252-cells-with-odd-values-in-a-matrix.php
+1252. 奇数值单元格的数目(简单)--------------------------leetcode-1252-cells-with-odd-values-in-a-matrix.php
       
 1253. 重构 2 行二进制矩阵
       
@@ -2277,7 +2277,7 @@
       
 1265. 逆序打印不可变链表
       
-1266. 访问所有点的最小时间
+1266. 访问所有点的最小时间--------------------------------leetcode-1266-minimumtime-visiting-all-points.php
       
 1267. 统计参与通信的服务器
       
@@ -2299,7 +2299,7 @@
       
 1276. 不浪费原料的汉堡制作方案
       
-1277. 统计全为 1 的正方形子矩阵
+1277. 统计全为 1 的正方形子矩阵--------------leetcode-1277-count-square-submatrices-with-all-ones.php
       
 1278. 分割回文串 III
       
@@ -2307,7 +2307,7 @@
       
 1280. 学生们参加各科测试的次数
       
-1281. 整数的各位积和之差(简单)-----leetcode-1281-subtract-the-product-and-sum-of-digits-of-an-integer.php
+1281. 整数的各位积和之差(简单)-leetcode-1281-subtract-the-product-and-sum-of-digits-of-an-integer.php
       
 1282. 用户分组
       
@@ -2335,7 +2335,7 @@
       
 1294. 不同国家的天气类型
       
-1295. 统计位数为偶数的数字(简单)----------------------leetcode-1295-find-numbers-with-even-number-of-digits.php
+1295. 统计位数为偶数的数字(简单)----------leetcode-1295-find-numbers-with-even-number-of-digits.php
       
 1296. 划分数组为连续数字的集合
       
@@ -2349,11 +2349,11 @@
       
 1301. 最大得分的路径数目
       
-1302. 层数最深叶子节点的和
+1302. 层数最深叶子节点的和--------------------------------------------------leetcode-1302-deepest-leaves-sum.php
       
 1303. 求团队人数
       
-1304. 和为零的 N 个不同整数
+1304. 和为零的 N 个不同整数----------------------leetcode-1304-find-n-unique-integers-sum-up-to-zero.php
       
 1305. 两棵二叉搜索树中的所有元素
       
@@ -2371,7 +2371,7 @@
       
 1312. 让字符串成为回文串的最少插入次数
       
-1313. 解压缩编码列表
+1313. 解压缩编码列表-----------------------------------leetcode-1313-decompress-run-length-encoded-list.php
       
 1314. 矩阵区域和
       
@@ -2391,7 +2391,7 @@
       
 1322. 广告效果
       
-1323. 6 和 9 组成的最大数字
+1323. 6 和 9 组成的最大数字-----------------------------------------------leetcode-1323-maximum-69-number.php
       
 1324. 竖直打印单词
       
@@ -2407,7 +2407,7 @@
       
 1330. 翻转子数组得到最大的数组值
       
-1331. 数组序号转换--------------------leetcode-1331-rank-transform-of-an-array.php
+1331. 数组序号转换----------------------------------------------------leetcode-1331-rank-transform-of-an-array.php
       
 1332. 删除回文子序列
       
@@ -2419,7 +2419,7 @@
       
 1336. 每次访问的交易次数
       
-1337. 矩阵中战斗力最弱的 K 行
+1337. 矩阵中战斗力最弱的 K 行--------------------------------leetcode-1337-the-k-eakest-rows-in-a-matrix.php
       
 1338. 数组大小减半
       
@@ -2429,7 +2429,7 @@
       
 1341. 电影评分
       
-1342. 将数字变成 0 的操作次数
+1342. 将数字变成 0 的操作次数---------leetcode-1342-number-of-steps-to-reduce-a-number-to-zero.php
       
 1343. 大小为 K 且平均值大于等于阈值的子数组数目
       
@@ -2437,7 +2437,7 @@
       
 1345. 跳跃游戏 IV
       
-1346. 检查整数及其两倍数是否存在-------------leetcode-1346-check-if-n-and-its-double-exist.php
+1346. 检查整数及其两倍数是否存在-------------------------leetcode-1346-check-if-n-and-its-double-exist.php
       
 1347. 制造字母异位词的最小步骤数
       
@@ -2475,11 +2475,11 @@
       
 1364. 顾客的可信联系人数量
       
-1365. 有多少小于当前数字的数字
+1365. 有多少小于当前数字的数字-leetcode-1365-how-many-numbers-are-smaller-han-the-current-number
       
 1366. 通过投票对团队排名
       
-1367. 二叉树中的链表
+1367. 二叉树中的链表-----------------------------------------------------leetcode-1367-linked-list-in-binary-tree.php
       
 1368. 使网格图至少有一条有效路径的最小代价
       
@@ -2673,7 +2673,7 @@
       
 1463. 摘樱桃 II
       
-1464. 数组中两元素的最大乘积(简单)---leetcode-1464-maximum-product-of-two-elements-in-an-array.php
+1464. 数组中两元素的最大乘积(简单)-leetcode-1464-maximum-product-of-two-elements-in-an-array.php
       
 1465. 切割后面积最大的蛋糕
       
@@ -2685,7 +2685,7 @@
       
 1469. 寻找所有的独生节点
       
-1470. 重新排列数组(简单)----------------leetcode-1470-shuffle-the-array.php
+1470. 重新排列数组(简单)-----------------------------------------------------------leetcode-1470-shuffle-the-array.php
       
 1471. 数组中的 k 个最强值
       
@@ -2697,7 +2697,7 @@
       
 1475. 商品折扣后的最终价格
       
-1476. 子矩形查询
+1476. 子矩形查询----------------------------------------------------------------leetcode-1476-subrectangle-queries.php
       
 1477. 找两个和为目标值且不重叠的子数组
       
@@ -2705,7 +2705,7 @@
       
 1479. 周内每天的销售情况
       
-1480. 一维数组的动态和(简单)----------------leetcode-1480-running-sum-of-1d-array.php
+1480. 一维数组的动态和(简单)-----------------------------------------leetcode-1480-running-sum-of-1d-array.php
       
 1481. 不同整数的最少数目
       
@@ -2727,7 +2727,7 @@
       
 1490. 克隆 N 叉树
       
-1491. 去掉最低工资和最高工资后的工资平均值
+1491. 去掉最低工资和最高工资后的工资平均值-leetcode-1491-average-salary-excluding-the-minimum-and-maximum-salary.php
       
 1492. n 的第 k 个因子
       
@@ -2737,7 +2737,7 @@
       
 1495. 上月播放的儿童适宜电影
       
-1496. 判断路径是否相交(简单)----------------leetcode-1496-path-crossing.php(和官方结果有出入)
+1496. 判断路径是否相交(简单)---------------------------------------------------------leetcode-1496-path-crossing.php
       
 1497. 检查数组对是否可以被 k 整
       
@@ -2749,7 +2749,7 @@
 
 1501. 可以放心投资的国家
       
-1502. 判断能否形成等差数列(简单)----leetcode-1502-can-make-arithmetic-progression-from-sequence.php
+1502. 判断能否形成等差数列(简单)-leetcode-1502-can-make-arithmetic-progression-from-sequence.php
       
 1503. 所有蚂蚁掉下来前的最后一刻
       
@@ -2769,7 +2769,7 @@
       
 1511. 消费者下单频率
       
-1512. 好数对的数目(简单)--------------leetcode-1512-number-of-good-pairs.php
+1512. 好数对的数目(简单)--------------------------------------------------leetcode-1512-number-of-good-pairs.php
       
 1513. 仅含 1 的子串数
       
@@ -2791,7 +2791,7 @@
       
 1522. N 叉树的直径
       
-1523. 在区间范围内统计奇数数目
+1523. 在区间范围内统计奇数数目-------------leetcode-1523-count-odd-numbers-in-an-lnterval-range.php
       
 1524. 和为奇数的子数组数目
       
@@ -2801,7 +2801,7 @@
       
 1527. 患某种疾病的患者
       
-1528. 重新排列字符串(简单)---------leetcode-1528-shuffle-string.php
+1528. 重新排列字符串(简单)------------------------------------------------------------leetcode-1528-shuffle-string.php
       
 1529. 最少的后缀翻转次数
       
@@ -2913,7 +2913,7 @@
       
 1583. 统计不开心的朋友
       
-1584. 连接所有点的最小费用
+1584. 连接所有点的最小费用-------------------------------------------leetcode-1584-min-cost-connect-points.php
       
 1585. 检查字符串是否可以通过排序子字符串得到另一个字符串
       
@@ -2921,7 +2921,7 @@
       
 1587. 银行账户概要 II
       
-1588. 所有奇数长度子数组的和
+1588. 所有奇数长度子数组的和----------------------------leetcode-1588-sum-of-all-odd-length-subarrays.php
       
 1589. 所有排列中的最大和
       
@@ -2951,7 +2951,7 @@
       
 1602. 找到二叉树中最近的右侧节点
       
-1603. 设计停车系统(简单)---------------------------------leetcode-1603-design-parking-system.php
+1603. 设计停车系统(简单)--------------------------------------------------leetcode-1603-design-parking-system.php
       
 1604. 警告一小时内使用相同员工卡大于等于三次的人
       
@@ -2973,7 +2973,7 @@
       
 1613. 找到遗失的ID
       
-1614. 括号的最大嵌套深度(简单)------------leetcode-1614-maximum-nesting-depth-of-the-parentheses.php
+1614. 括号的最大嵌套深度(简单)---------leetcode-1614-maximum-nesting-depth-of-the-parentheses.php
       
 1615. 最大网络秩
       
@@ -3119,7 +3119,7 @@
       
 1686. 石子游戏 VI
       
-1687. 从仓库到码头运输箱子-----------------leetcode-1684-count-the-number-of-consistent-strings.php
+1687. 从仓库到码头运输箱子---------------------leetcode-1684-count-the-number-of-consistent-strings.php
       
 1688. 比赛中的配对次数
       
@@ -3185,7 +3185,7 @@
       
 1719. 重构一棵树的方案数
       
-1720. 解码异或后的数组(简单)---------------leetcode-1720-decode-xored-array.php
+1720. 解码异或后的数组(简单)------------------------------------------------leetcode-1720-decode-xored-array.php
       
 1721. 交换链表中的节点
       
@@ -3209,7 +3209,7 @@
       
 1731. 每位经理的下属员工数量
       
-1732. 找到最高海拔
+1732. 找到最高海拔--------------------------------------------------------leetcode-1732-find-the-highest-altitude.php
       
 1733. 需要教语言的最少人数
       
@@ -3241,7 +3241,7 @@
       
 1747. 应该被禁止的 Leetflex 账户
       
-1748. 唯一元素的和(简单)---------leetcode-1748-sum-of-unique-elements.php
+1748. 唯一元素的和(简单)-----------------------------------------------leetcode-1748-sum-of-unique-elements.php
       
 1749. 任意子数组和的绝对值的最大值
       
@@ -3281,9 +3281,9 @@
       
 1767. 寻找没有被执行的任务对
       
-1768. 交替合并字符串(简单)-----------------------------------------leetcode-1768-merge-strings-alternately.php
+1768. 交替合并字符串(简单)-------------------------------------------leetcode-1768-merge-strings-alternately.php
       
-1769. 移动所有球到每个盒子所需的最小操作数
+1769. 移动所有球到每个盒子所需的最小操作数-leetcode-1769-minimum-number-of-operations-to-move-all-balls-to-each-box.php
       
 1770. 执行乘法运算的最大分数
       
@@ -3291,7 +3291,7 @@
       
 1772. 按受欢迎程度排列功能
       
-1773. 统计匹配检索规则的物品数量
+1773. 统计匹配检索规则的物品数量----------------------------leetcode-1773-count-items-matching-a-rule.php
       
 1774. 最接近目标价格的甜点成本
       
@@ -3303,7 +3303,7 @@
       
 1778. 未知网格中的最短路径
       
-1779. 找到最近的有相同 X 或 Y 坐标的点
+1779. 找到最近的有相同 X 或 Y 坐标的点-leetcode-1779-find-nearest-point-that-has-the-same-s-or-y-coordinate.php
       
 1780. 判断一个数字是否可以表示成三的幂的和
       
@@ -3327,7 +3327,7 @@
       
 1790. 仅执行一次字符串交换能否使两个字符串相等
       
-1791. 找出星型图的中心节点
+1791. 找出星型图的中心节点------------------------------------------leetcode-1791-find-center-of-star-graph.php
       
 1792. 最大平均通过率
       
@@ -3369,7 +3369,7 @@
       
 1811. 寻找面试候选人
       
-1812. 判断国际象棋棋盘中一个格子的颜色(简单)-----leetcode-1812-determine-color-of-a-chessboard-square.php
+1812. 判断国际象棋棋盘中一个格子的颜色(简单)-leetcode-1812-determine-color-of-a-chessboard-square.php
       
 1813. 句子相似性 III
       
@@ -3377,7 +3377,7 @@
       
 1815. 得到新鲜甜甜圈的最多组数
       
-1816. 截断句子(简单)-----leetcode-1816-truncate-sentence.php
+1816. 截断句子(简单)--------------------------------------------------------------leetcode-1816-truncate-sentence.php
       
 1817. 查找用户活跃分钟数
       
@@ -3389,7 +3389,7 @@
       
 1821. 寻找今年具有正收入的客户
       
-1822. 数组元素积的符号
+1822. 数组元素积的符号---------------------------------------leetcode-1822-sign-of-the-product-of-an-array.php
       
 1823. 找出游戏的获胜者
       
@@ -3399,9 +3399,9 @@
       
 1826. 有缺陷的传感器
       
-1827. 最少操作使数组递增
+1827. 最少操作使数组递增-------leetcode-1827-minimum-operations-to-make-the-array-increasing.php
       
-1828. 统计一个圆中点的数目
+1828. 统计一个圆中点的数目---------------leetcode-1828-queries-on-number-of-points-inside-a-circle.php
       
 1829. 每个查询的最大异或值
       
@@ -3409,9 +3409,9 @@
       
 1831. 每天的最大交易
       
-1832. 判断句子是否为全字母句
+1832. 判断句子是否为全字母句---------------------------leetcode-1832-check-if-the-sentence-is-pangram.php
       
-1833. 雪糕的最大数量
+1833. 雪糕的最大数量---------------------------------------------------leetcode-1833-maximum-ice-cream-bars.php
       
 1834. 单线程 CPU
       
@@ -3463,7 +3463,7 @@
       
 1858. 包含所有前缀的最长单词---
       
-1859. 将句子排序(简单)-----leetcode-1859-sorting-the-sentence.php
+1859. 将句子排序(简单)--------------------------------------------------------leetcode-1859-sorting-the-sentence.php
       
 1860. 增长的内存泄露---
       
@@ -3497,7 +3497,7 @@
       
 1875. 将工资相同的雇员分组---
       
-1876. 长度为三且各字符不同的子字符串---
+1876. 长度为三且各字符不同的子字符串-leetcode-1876-substrings-of-size-three-with-distinct-characters.php
       
 1877. 数组中最大数对和的最小值---
       
@@ -3517,7 +3517,7 @@
       
 1885. 统计数对---
       
-1886. 判断矩阵经轮转后是否一致---
+1886. 判断矩阵经轮转后是否一致-leetcode-1886-determine-whether-matrix-can-be-obtained-by-rotation.php
       
 1887. 使数组元素相等的减少操作次数---
       
@@ -3551,7 +3551,7 @@
       
 1902. 给定二叉搜索树的插入顺序求深度---
       
-1903. 字符串中的最大奇数---
+1903. 字符串中的最大奇数---------------------------------------leetcode-1903-largest-odd-number-in-string.php
       
 1904. 你完成的完整对局数---
       
@@ -3571,7 +3571,7 @@
       
 1912. 设计电影租借系统---
       
-1913. 两个数对之间的最大乘积差---
+1913. 两个数对之间的最大乘积差-leetcode-1913-maximum-product-difference-between-two-pairs.php
       
 1914. 循环轮转矩阵---
       
@@ -3585,7 +3585,7 @@
       
 1919. 兴趣相同的朋友---
       
-1920. 基于排列构建数组---
+1920. 基于排列构建数组-----------------------------------------leetcode-1920-build-array-from-permutation.php
       
 1921. 消灭怪物的最大数量---
       
@@ -3603,7 +3603,7 @@
       
 1928. 规定时间内到达终点的最小花费---
       
-1929. 数组串联---
+1929. 数组串联----------------------------------------------------------------leetcode-1929-concatenation-of-array.php
       
 1930. 长度为 3 的不同回文子序列---
       
@@ -3615,7 +3615,7 @@
       
 1934. 确认率---
       
-1935. 可以输入的最大单词数(简单)---------------leetcode-1935-maximum-number-of-words-you-can-type.php
+1935. 可以输入的最大单词数(简单)---------leetcode-1935-maximum-number-of-words-you-can-type.php
       
 1936. 新增的最少台阶数---
       
@@ -3627,7 +3627,7 @@
       
 1940. 排序数组之间的最长公共子序列---
       
-1941. 检查是否所有字符出现次数相同---
+1941. 检查是否所有字符出现次数相同-leetcode-1941-check-if-all-characters-have-equal-number-of-occurrences.php
       
 1942. 最小未被占据椅子的编号---
       
@@ -3727,7 +3727,7 @@
       
 1990. 统计实验的数量---
       
-1991. 找到数组的中间位置(简单)----leetcode-1991-find-the-middle-index-in-array.php
+1991. 找到数组的中间位置(简单)------------------------------leetcode-1991-find-the-middle-index-in-array.php
       
 1992. 找到所有的农场组---
       
@@ -3745,7 +3745,7 @@
       
 1999. 最小的仅由两个数组成的倍数---
       
-2000. 反转单词前缀(简单)---leetcode-2000-reverse-prefix-of-word.php
+2000. 反转单词前缀(简单)--------------------------------------------------leetcode-2000-reverse-prefix-of-word.php
 
 2001. 可互换矩形的组数---
       
@@ -3767,7 +3767,7 @@
       
 2010. 职员招聘人数 II---
       
-2011. 执行操作后的变量值---
+2011. 执行操作后的变量值--------leetcode-2011-final-value-of-variable-after-performing-operations.php
       
 2012. 数组美丽值求和---
       
@@ -3951,7 +3951,7 @@
       
 2102. 序列顺序查询\------
       
-2103. 环和杆\------
+2103. 环和杆\------leetcode-2103-rings-and-rods.php
       
 2104. 子数组范围和\------
       
@@ -3961,7 +3961,7 @@
       
 2107. 分享 K 个糖果后独特口味的数量\------
       
-2108. 找出数组中的第一个回文字符串\------
+2108. 找出数组中的第一个回文字符串\--------leetcode-2108-find-first-palindromic-string-in-the-array.php
       
 2109. 向字符串添加空格\------
       
@@ -4045,7 +4045,7 @@
       
 2149. 按符号重排数组\------
       
-2150. 找出数组中的所有孤独数字(简单)\----------leetcode-2150-find-all-lonely-numbers-in-the-array.php
+2150. 找出数组中的所有孤独数字(简单)\------------leetcode-2150-find-all-lonely-numbers-in-the-array.php
       
 2151. 基于陈述统计最多好人数\------
       
@@ -4083,7 +4083,7 @@
       
 2168. 每个数字的频率都相同的独特子字符串的数量\------
       
-2169. 得到 0 的操作数(简单)-----leetcode-2169-count-operations-to-obtain-zero.php
+2169. 得到 0 的操作数(简单)---------------------------------leetcode-2169-count-operations-to-obtain-zero.php
       
 2170. 使数组变成交替数组的最少操作数\------
       
@@ -4097,7 +4097,7 @@
       
 2175. 世界排名的变化\------
       
-2176. 统计数组中相等且可以被整除的数对(简单)\----------leetcode-2176-count-equal-and-divisible-pairs-in-an-array.php
+2176. 统计数组中相等且可以被整除的数对(简单)-leetcode-2176-count-equal-and-divisible-pairs-in-an-array.php
       
 2177. 找到和为给定整数的三个连续整数\------
       
@@ -4133,7 +4133,7 @@
       
 2193. 得到回文串的最少操作次数\------
       
-2194. Excel 表中某个范围内的单元格(简单)\------leetcode-2194-cells-in-a-range-on-an-excel-sheet.php
+2194. Excel 表中某个范围内的单元格(简单)\----------leetcode-2194-cells-in-a-range-on-an-excel-sheet.php
       
 2195. 向数组中追加 K 个整数\------
       
@@ -4215,9 +4215,9 @@
       
 2234. 花园的最大总美丽值\------
       
-2235. 两整数相加(简单)\-------------------------leetcode-2235-add-two-integers.php
+2235. 两整数相加(简单)\-------------------------------------------------------------leetcode-2235-add-two-integers.php
       
-2236. 判断根结点是否等于子结点之和\------
+2236. 判断根结点是否等于子结点之和\-------------------------leetcode-2236-root-equals-sum-of-children.php
       
 2237. Count Positions on Street With Required Brightness\------
       
@@ -4241,7 +4241,7 @@
       
 2247. Maximum Cost of Trip With K Highways\------
       
-2248. 多个数组求交集(简单)------leetcode-2248-intersection-of-multiple-arrays.php
+2248. 多个数组求交集(简单)-----------------------------------leetcode-2248-intersection-of-multiple-arrays.php
       
 2249. 统计圆内格点数目\------
       
@@ -4351,7 +4351,7 @@
       
 2302. 统计得分小于 K 的子数组数目\------
       
-2303. 计算应缴税款总额(简单)-----leetcode-2303-calculate-amount-paid-in-taxes.php
+2303. 计算应缴税款总额(简单)--------------------------------leetcode-2303-calculate-amount-paid-in-taxes.php
 
 2304. 网格中的最小路径代价\------
 
@@ -4363,7 +4363,7 @@
 
 2308. Arrange Table by Gender\------
 
-2309. 兼具大小写的最好英文字母(简单)-----leetcode-2309-greatest-english-letter-in-upper-and-lower-case.php
+2309. 兼具大小写的最好英文字母(简单)-leetcode-2309-greatest-english-letter-in-upper-and-lower-case.php
 
 2310. 个位数字为 K 的整数之和\------
 
@@ -4375,7 +4375,7 @@
 
 2314. The First Day of the Maximum Recorded Degree in Each City\------
 
-2315. 统计星号(简单)-----leetcode-2315-count-asterisks.php
+2315. 统计星号(简单)-------------------------------------------------------------------leetcode-2315-count-asterisks.php
 
 2316. 统计无向图中无法互相到达点对数\------
 
@@ -4395,7 +4395,7 @@
 
 2324. Product Sales Analysis IV\------
 
-2325. 解密消息(简单)------leetcode-2325-decode-the-message.php
+2325. 解密消息(简单)-----------------------------------------------------------leetcode-2325-decode-the-message.php
 
 2326. 螺旋矩阵 IV\------
 
@@ -4491,7 +4491,7 @@
       
 2372. 计算每个销售人员的影响力------
       
-2373. 矩阵中的局部最大值------
+2373. 矩阵中的局部最大值-------------------------------------leetcode-2373-largest-local-values-in-a-matrix.php
       
 2374. 边积分最高的节点------
       
@@ -4553,7 +4553,7 @@
 
 2403. Minimum Time to Kill All Monsters------
 
-2404. 出现最频繁的偶数元素leetcode-2404-most-frequent-even-element.phpTODO------
+2404. 出现最频繁的偶数元素-------------------------------------leetcode-2404-most-frequent-even-element.php
 
 2405. 子字符串的最优划分------
 
@@ -4571,7 +4571,7 @@
 
 2412. 完成所有交易的初始最少钱数------
 
-2413. 最小偶倍数(简单)------------------leetcode-2413-smallest-even-multiple.php
+2413. 最小偶倍数(简单)-----------------------------------------------------leetcode-2413-smallest-even-multiple.php
 
 2414. 最长的字母序连续子字符串的长度(中等)------leetcode-2414-length-of-the-longest-alphabetical-continuous-substring.php
 
@@ -4581,7 +4581,7 @@
 
 2417. Closest Fair Integer------
 
-2418. 按身高排序(简单)------leetcode-2418-sort-the-people.php
+2418. 按身高排序(简单)---------------------------------------------------------------leetcode-2418-sort-the-people.php
 
 2419. 按位与最大的最长子数组------
 
@@ -4599,7 +4599,7 @@
 
 2426. 满足不等式的数对数目------
 
-2427. 公因子的数目(简单)------leetcode-2427-number-of-common-factors.php
+2427. 公因子的数目(简单)------------------------------------------leetcode-2427-number-of-common-factors.php
 
 2428. 沙漏的最大总和------
 
@@ -4618,7 +4618,7 @@
 
 2435. 矩阵中和能被 K 整除的路径------
 2436. Minimum Split Into Subarrays With GCD Greater Than One------
-2437. 有效时间的数目------
+2437. 有效时间的数目-----------------------------------------------leetcode-2437-number-of-valid-clock-times.php
 2438. 二的幂数组中查询范围内的乘积------
 2439. 最小化数组中的最大值------
 2440. 创建价值相同的连通块------
@@ -4632,7 +4632,7 @@
 2448. 使数组相等的最小开销------
 2449. 使数组相似的最少操作次数------
 2450. Number of Distinct Binary Strings After Applying Operations------
-2451. 差值数组不同的字符串(简单)------------------leetcode-2451-odd-string-difference.phpTODO
+2451. 差值数组不同的字符串(简单)---------------------------------------leetcode-2451-odd-string-difference.phpTODO
 2452. 距离字典两次编辑以内的单词------
 2453. 摧毁一系列目标------
 2454. 下一个更大元素 IV------
@@ -4641,32 +4641,32 @@
 2457. 美丽整数的最小增量------
 2458. 移除子树后的二叉树高度------
 2459. Sort Array by Moving Items to Empty Space------
-2460. 对数组执行操作(简单)---------------leetcode-2460-apply-operations-to-an-array.php
+2460. 对数组执行操作(简单)--------------------------------------leetcode-2460-apply-operations-to-an-array.php
 2461. 长度为 K 子数组中的最大和------
 2462. 雇佣 K 位工人的总代价------
 2463. 最小移动总距离------
 2464. Minimum Subarrays in a Valid Split------
-2465. 不同的平均值数目(简单)------------leetcode-2465-number-of-distinct-averages.php
+2465. 不同的平均值数目(简单)-----------------------------------leetcode-2465-number-of-distinct-averages.php
 2466. 统计构造好字符串的方案数------
 2467. 树上最大得分和路径------
 2468. 根据限制分割消息------
-2469. 温度转换(简单)-------------leetcode-2469-convert-the-temperature.php
+2469. 温度转换(简单)-----------------------------------------------------leetcode-2469-convert-the-temperature.php
 2470. 最小公倍数为 K 的子数组数目------
 2471. 逐层排序二叉树所需的最少操作数目------
 2472. 不重叠回文子字符串的最大数目------
 2473. Minimum Cost to Buy Apples------
 2474. Customers With Strictly Increasing Purchases------
-2475. 数组中不等三元组的数目(简单)------leetcode-2475-number-of-unequal-triplets-in-array.php
+2475. 数组中不等三元组的数目(简单)---------------leetcode-2475-number-of-unequal-triplets-in-array.php
 2476. 二叉搜索树最近节点查询------
 2477. 到达首都的最少油耗------
 2478. 完美分割的方案数------
 2479. Maximum XOR of Two Non-Overlapping Subtrees------
 2480. Form a Chemical Bond------
-2481. 分割圆的最少切割次数(简单)------leetcode-2481-minimum-cuts-to-divide-a-circle.php
+2481. 分割圆的最少切割次数(简单)------------------------leetcode-2481-minimum-cuts-to-divide-a-circle.php
 2482. 行和列中一和零的差值------
 2483. 商店的最少代价------
 2484. 统计回文子序列数目------
-2485. 找出中枢整数(简单)------leetcode-2485-find-the-pivot-integer.php
+2485. 找出中枢整数(简单)----------------------------------------------------leetcode-2485-find-the-pivot-integer.php
 2486. 追加字符以获得子序列------
 2487. 从链表中移除节点------
 2488. 统计中位数为 K 的子数组------
@@ -4716,7 +4716,7 @@
 2522. 将字符串分割成值不超过 K 的子字符串\---
 2523. 范围内最接近的两个质数\---
 
-LCP01-猜数字(简单)------leetcode-LCP01-猜数-guess-numbers.phpLCP02. 分式化简
+LCP01-猜数字(简单)---------------------------------leetcode-LCP01-猜数-guess-numbers.phpLCP02. 分式化简
 
 LCP 03. 机器人大冒险
 
@@ -4810,9 +4810,9 @@ LCP 11. 期望个数统计
 
 剑指 Offer 38. 字符串的排列---
 
-面试题 01.01. 判定字符是否唯一(简单)----------leetcode-面试题-001-is-unique-lcci.php
+面试题 01.01. 判定字符是否唯一(简单)-----------------------------------leetcode-面试题-001-is-unique-lcci.php
 
-面试题 01.02. 判定是否互为字符重排(简单)----------leetcode-面试题-002-check-permutation-lcci.php
+面试题 01.02. 判定是否互为字符重排(简单)---------------leetcode-面试题-002-check-permutation-lcci.php
 
 面试题 01.03. URL化---
 
@@ -4894,9 +4894,9 @@ LCP 11. 期望个数统计
 
 面试题 08.02. 迷路的机器人
 
-面试题 08.03. 魔术索引(简单)----------leetcode-面试题 08.03-magic-index-lcci.php
+面试题 08.03. 魔术索引(简单)-----------------------------------------leetcode-面试题 08.03-magic-index-lcci.php
 
-面试题 08.04. 幂集(简单)----------leetcode-面试题 08.04-power-set-lcci.php
+面试题 08.04. 幂集(简单)---------------------------------------------------leetcode-面试题 08.04-power-set-lcci.php
 
 面试题 08.05. 递归乘法
 
@@ -4910,7 +4910,7 @@ LCP 11. 期望个数统计
 
 面试题 08.10. 颜色填充
 
-面试题 08.11. 硬币(中等)---------------------------------------------------leetcode-面试题 08.11-coin-lcci.php
+面试题 08.11. 硬币(中等)-----------------------------------------------------------leetcode-面试题 08.11-coin-lcci.php
 
 面试题 08.12. 八皇后
 
@@ -4918,7 +4918,7 @@ LCP 11. 期望个数统计
 
 面试题 08.14. 布尔运算
 
-面试题 10.01. 合并排序的数组(简单)----------------------leetcode-面试题-10.01-sorted-merge-lcci.php
+面试题 10.01. 合并排序的数组(简单)-----------------------------leetcode-面试题-10.01-sorted-merge-lcci.php
 
 面试题 10.02. 变位词组---
 
@@ -4944,7 +4944,7 @@ LCP 11. 期望个数统计
 
 面试题 16.06. 最小差---
 
-面试题 16.07. 最大数值(简单)----------maximum-lcci.php
+面试题 16.07. 最大数值(简单)-----------------------------------------------------------------------------maximum-lcci.php
 
 面试题 16.08. 整数的英语表示---
 
@@ -4982,7 +4982,7 @@ LCP 11. 期望个数统计
 
 面试题 17.01. 不用加号的加法---
 
-面试题 17.04. 消失的数字(简单)----------missing-number-lcci.php
+面试题 17.04. 消失的数字(简单)-----------------------------------------------------------------missing-number-lcci.php
 
 面试题 17.05. 字母与数字---
 
@@ -5034,6 +5034,6 @@ LCP 11. 期望个数统计
 
 面试题59 - II. 队列的最大值---
 
-面试题61. 扑克牌中的顺子(简单)----------leetcode-面试题-061-bu-ke-pai-zhong-de-shun-zi-lcof.php
+面试题61. 扑克牌中的顺子(简单)-----------------leetcode-面试题-061-bu-ke-pai-zhong-de-shun-zi-lcof.php
 
 面试题67. 把字符串转换成整数(中等)-leetcode-面试题-067-ba-zi-fu-chuan-zhuan-huan-cheng-zheng-shu-lcof.php
