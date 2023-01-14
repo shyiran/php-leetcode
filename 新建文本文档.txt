@@ -1,70 +1,41 @@
-//待办品牌策划项
-v2/dashboard/cehualist?type=1
-//完成品牌策划项
-v2/dashboard/cehualist?type=1
-
-
-//方案数
-v2/dashboard/gxcl
-
-
-//brief数
-v2/dashboard/brief
-
-
-//已开通自媒体矩阵
-v2/dashboard/zmtjz
-
-
-
-//媒体维护
-v2/dashboard/mtwh
-
-
-
-//媒体新增
-v2/dashboard/mtxz
-
-
-
-//危机应对方案数据统计
-v2/dashboard/wjdyfa
-
-
-//品牌策划----最近完成+最近新增
-v2/dashboard/cehualist?type=2
-
-
- //方案--最近新增
-v2/dashboard/fa_zjxz
-
-
-//危机应对方案数据统计
-v2/dashboard/wjdyfa
-
-
-//品牌基建完成度
-v2/dashboard/cehualist?type=2
-
-
-
-//媒体组员传播力量占比级建议数值：
-//TODO，目前需求待定
-
-
-
-
-//媒体资源岗位分析：
-v2/dashboard/mtzygwfx
-        
-    
-       
-//媒体维护趋势（近6个月）：
-v2/dashboard/mtwhqs    
-
-       
-//媒体新增趋势（近6个月）：
-v2/dashboard/mtxzqs
-
-//媒体资源完成度
-v2/dashboard/mtzywsd
+2524. Maximum Frequency Score of a Subarray
+1
+35.2%
+困难
+2525. 根据规则将箱子分类
+28
+48.1%
+简单
+2526. 找到数据流中的连续整数
+35
+51.7%
+中等
+2527. 查询数组 Xor 美丽值
+33
+67.0%
+中等
+2528. 最大化城市的最小供电站数目
+31
+40.3%
+困难
+2529. 正整数和负整数的最大计数
+44
+81.8%
+简单
+2530. 执行 K 次操作后的最大分数
+56
+44.3%
+中等
+2531. 使字符串总不同字符的数目相等
+76
+28.6%
+中等
+2532. 过桥的时间
+46
+50.9%
+困难
+2533. Number of Good Binary Strings
+3
+82.5%
+中等
+2534. 通过门的时间
